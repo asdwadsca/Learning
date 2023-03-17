@@ -38,7 +38,7 @@ class SimpleCal {
     public static void main(String[]args){
         if (args.length!=3){
             System.out.println("请使用格式：java SimpleCal 操作数1 运算符 操作数2");
-            System.out.println("例如java SimpleCal3+4");
+            System.out.println("例如java SimpleCal 3 + 4");
             System.out.println("注意：操作数和运算符之间要用空格分隔。");
             System.exit(-1);
         }
