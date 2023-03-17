@@ -30,4 +30,3 @@ class IdentityNumber {
         System.out.println("出生年月为："+i1.getBirthday());
     }
 }
-
