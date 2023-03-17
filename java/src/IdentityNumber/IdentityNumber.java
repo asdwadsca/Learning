@@ -20,8 +20,7 @@ class IdentityNumber {
                 Number.substring(10,12)+"月"+
                 Number.substring(12,14)+"日";
     }
-}
-class test{
+
     public static void main(String[]args){
         IdentityNumber i1=new IdentityNumber();
         System.out.println("请输入18位身份证号码");
@@ -29,6 +28,5 @@ class test{
         System.out.println("输入的身份证号码为："+i1.getNumber());
         System.out.println("地区代码为："+i1.getAreaCode());
         System.out.println("出生年月为："+i1.getBirthday());
-
     }
 }
