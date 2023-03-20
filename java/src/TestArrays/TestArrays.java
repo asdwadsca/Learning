@@ -13,7 +13,7 @@ public class TestArrays {
         int num5= sc.nextInt();
         int[] arr =new int[]{num1,num2,num3,num4,num5};
         Arrays.sort(arr);
-        for (int j : arr) {
+        for (int j : arr) {                  //调用ForEach语句
             System.out.println(j);
         }
     }

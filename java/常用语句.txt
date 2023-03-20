@@ -1,0 +1,30 @@
+ForEach语句:循环访问集合以获取所需信息。
+    例：
+    int[] a={1,2,3};
+    for(int i:a){
+        System.out.print(i+",");
+    }
+
+
+Scanner：用于获得用户在控制台输入的数据。
+    import java.util.Scanner;       //导入java.util.scanner类。
+    Scanner sc=new Scanner          //调用Scanner扫描仪，创建sc扫描仪。
+    sc.close()                      //关闭扫描仪。
+Int型：
+    int a;
+    a=sc.nextInt();
+    sc.close();
+Double型：
+    double a;
+    a=sc.nextDouble();
+    sc.close();
+String型：
+    String a;
+    a=sc.next();
+    sc.close();
+char型：
+    char a;
+    a=sc.next().charAt(0);
+    sc.close();
+
+
