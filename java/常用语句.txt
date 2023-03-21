@@ -7,9 +7,9 @@ ForEach语句:循环访问集合以获取所需信息。
 
 
 Scanner：用于获得用户在控制台输入的数据。
-    import java.util.Scanner;       //导入java.util.scanner类。
-    Scanner sc=new Scanner          //调用Scanner扫描仪，创建sc扫描仪。
-    sc.close()                      //关闭扫描仪。
+    import java.util.Scanner;                   //导入java.util.scanner类。
+    Scanner sc=new Scanner(System.in)           //调用Scanner类，创建sc扫描仪。
+    sc.close()                                  //关闭扫描仪。
 Int型：
     int a;
     a=sc.nextInt();
