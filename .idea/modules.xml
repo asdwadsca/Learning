@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Minecraft Mod Learning/Minecraft Mod Learning.iml" filepath="$PROJECT_DIR$/Minecraft Mod Learning/Minecraft Mod Learning.iml" />
       <module fileurl="file://$PROJECT_DIR$/java基础.iml" filepath="$PROJECT_DIR$/java基础.iml" />
       <module fileurl="file://$PROJECT_DIR$/learning/learning.iml" filepath="$PROJECT_DIR$/learning/learning.iml" />
     </modules>
