@@ -16,5 +16,6 @@ public class TestArrays {
         for (int j : arr) {                  //调用ForEach语句
             System.out.println(j);
         }
+        sc.close();
     }
 }
