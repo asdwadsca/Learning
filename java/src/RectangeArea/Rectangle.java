@@ -8,8 +8,8 @@ class Rectangle {
         length=1;
         width=1;
     }
-    public Rectangle(int a){
-        length=a;
+    public Rectangle(int length){
+        this.length=length;
         width=1;
     }
     public Rectangle(int a,int b){

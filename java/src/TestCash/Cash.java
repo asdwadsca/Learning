@@ -1,10 +1,13 @@
 package TestCash;
 class Cash {
-    private float lendAmount;
-    private int lendYear;
+    private final float lendAmount;
+    private final int lendYear;
 
+    @SuppressWarnings("FieldCanBeLocal")
     private final float THREE_YEAR_INTEREST_RATE=0.07F;
+    @SuppressWarnings("FieldCanBeLocal")
     private final float FIVE_YEAR_INTEREST_RATE=0.08F;
+    @SuppressWarnings("FieldCanBeLocal")
     private final float TEN_YEAR_INTEREST_RATE=0.10F;
 
     public Cash(float lendAmount,int lendYear){
