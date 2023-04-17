@@ -79,9 +79,9 @@ public class Grade {
         list6.forEach((e)-> System.out.print(e+" "));
         System.out.print("\n49-40:");
         list7.forEach((e)-> System.out.print(e+" "));
-        System.out.print("\n39-30");
+        System.out.print("\n39-30;");
         list8.forEach((e)-> System.out.print(e+" "));
-        System.out.print("\n29-20");
+        System.out.print("\n29-20;");
         list9.forEach((e)-> System.out.print(e+" "));
         System.out.print("\n19-10:");
         list10.forEach((e)-> System.out.print(e+" "));
@@ -92,7 +92,8 @@ public class Grade {
 
     //主函数
     public static void main(String[] args) {
-        Grade g1=new Grade();
+        Grade g1 = new Grade();
+        System.out.println("输入40位学生成绩或者输入“-1”停止输入：");
         g1.input();
         g1.sort();
         g1.output();
