@@ -64,7 +64,12 @@ public class BubbleSort{
 
 
 
-
+(e)->{
+if(){
+}
+else{
+}
+};
 
 
 
